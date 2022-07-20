@@ -3,6 +3,107 @@
 =============================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+section.container{
+    /* width: 1140px; */
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background-color: #161616;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-info {
+    align-items: center;
+    color: #fff;
+    width: 50%;
+}
+h2.header-title {
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.header-img {
+    width: 50%;
+    /* margin: 0 auto; */
+}
+
+.header-img img {
+    width: 450px;
+}
+
+a.live-link {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid pink;
+    
+}
+
+/* ================================== Start Footer CSS =====================================*/
+.footer-area {
+    background-color: #161616;
+    padding: 70px 0;
+}
+
+h2.footer-title {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+hr.fhr-border {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255 255 255 / 58%), rgba(0, 0, 0, 0));
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+/*===== Footer Social link =====*/
+.footer-sicial-link ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-sicial-link ul li {
+    list-style: none;
+}
+
+.footer-sicial-link ul li a {
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+}
+
+/* ================================== End Footer CSS =====================================*/
+
+
+
