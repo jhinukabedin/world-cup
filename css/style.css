@@ -41,9 +41,19 @@ a.live-link {
     background-color: red;
     padding: 10px 20px;
     border-radius: 6px;
+    -webkit-transition: padding 2s;
 }
 a.live-link i {
     margin-left: 10px;
+}
+
+a.live-link:hover {
+    background-color: #f7247c;
+    -webkit-transition: padding 2s;
+}
+
+a.live-link:hover a.live-link i {
+    margin-left: 15px;
 }
 
 p.header-desc {

@@ -80,6 +80,7 @@ article.ex-func:nth-last-child(-n+1) {
   }
   header{
     flex-direction: column;
+    margin: 5px;
   }
   .header-info {
     margin: 35px;
